@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+.btn-container{
+    
+    /* border: solid 1px; */
+    width: 20%;
+    
+}
+.btn-link{
+    display: inline-block;
+    width: 50%;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    box-shadow: .75rem .75rem .1rem blueviolet;
+    border: none;
+    text-decoration: none;
+    font-size: 2.5rem;
+    perspective: 200px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    /* transition: all ease-in-out 6s; */
+}
+
+.btn-link:hover{
+    background-color: darkblue;
+}
+.btn-link:active{
+    transform: translate(.5rem, .5rem);
+    box-shadow: .5rem .5rem .1rem blueviolet;
+}
+
